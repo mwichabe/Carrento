@@ -1,0 +1,37 @@
+name: carrento
+description: CarRento - Premium Car Rental App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  flutter_secure_storage: ^9.0.0
+  provider: ^6.1.1
+  go_router: ^13.0.1
+  cached_network_image: ^3.3.1
+  intl: ^0.19.0
+  table_calendar: ^3.1.0
+  shimmer: ^3.0.0
+  fl_chart: ^0.66.2
+  flutter_rating_bar: ^4.0.1
+  google_fonts: ^6.1.0
+  lottie: ^3.0.0
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
